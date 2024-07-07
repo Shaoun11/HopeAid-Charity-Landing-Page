@@ -2,18 +2,21 @@ import React from 'react';
 
 const Services = () => {
     return (
+        // HoperAid Services Section Code Start
         <div className='max-w-7xl mt-16 mb-28 mx-auto'>
+            {/* HoperAid Services Section text */}
             <div className='lg:ml-0 ml-4 lg:mr-0 mr-4'>
-                <h1 className='lg:text-[48px] md:text-[30px] text-center text-[24px] font-semibold text-[#171717]'>
+                <h1 className='lg:text-[40px] md:text-[30px] text-center text-[24px] font-semibold text-[#171717]'>
                     How You May Assist
                 </h1>
-                <p className='mt-3 text-[#525252] text-center font-medium text-base'>
+                <p className='mt-3 text-[#525252] text-center font-medium text-[15px]'>
                     Your assistance is essential to us completing our mission. You can help and<span className='md:block '></span> change things in a lot of different ways.
                 </p>
             </div>
-
+            {/* HoperAid Services Section Services Card */}
             <div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8'>
+                {/* HoperAid Services Section Services Card 1 */}
                     <div className=' p-8 rounded-lg'>
                         <div className='flex justify-center'>
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,11 +30,11 @@ const Services = () => {
 
                         </div>
                         <h1 className='text-center text-[#171717] font-semibold text-xl mt-4'>Donate Funds</h1>
-                        <p className='text-center text-[#525252] font-normal text-base mt-4'>
+                        <p className='text-center text-[#525252] font-normal text-[15px] mt-4'>
                         You have the option to make a cash contribution, which will go directly towards supporting our activities and programmes.
                         </p>
                     </div>
-
+                    {/* HoperAid Services Section Services Card 2 */}
                     <div className=' p-8 rounded-lg'>
                         <div className='flex justify-center'>
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,11 +47,11 @@ const Services = () => {
 
                         </div>
                         <h1 className='text-center text-[#171717] font-semibold text-xl mt-4'>Volunteer</h1>
-                        <p className='text-center text-[#525252] font-normal text-base mt-4'>
+                        <p className='text-center text-[#525252] font-normal text-[15px] mt-4'>
                             You can take an active part in our campaigns, events, and initiatives by contributing your knowledge, abilities, and time.
                         </p>
                     </div>
-
+                    {/* HoperAid Services Section Services Card 3 */}
                     <div className=' p-8 rounded-lg'>
                         <div className='flex justify-center'>
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,13 +64,14 @@ const Services = () => {
 
                         </div>
                         <h1 className='text-center text-[#171717] font-semibold text-xl mt-4'>Fundraising Events</h1>
-                        <p className='text-center text-[#525252] font-normal text-base mt-4'>
+                        <p className='text-center text-[#525252] font-normal text-[15px] mt-4'>
                         You can take the lead and plan events for our cause if you have a strong fundraising passion.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        // HoperAid Services Section Services Code End
     );
 };
 

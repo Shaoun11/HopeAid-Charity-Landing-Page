@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
         </div>
          {/* lg: device navbar    */}
-        <ul className="hidden cursor-pointer lg:flex justify-between items-center gap-8 text-base text-[#18233B]  font-normal ">
+        <ul className="hidden cursor-pointer lg:flex justify-between items-center gap-8 text-base text-[#18233B] font-normal ">
           <li>
             <Link to='/' smooth={true} offset={-90}
              className={`hover:text-[#068278] active:text-[#068278] ${activeLink === 'home' ? 'clicked' : ''}`}
@@ -153,8 +153,8 @@ const Navbar = () => {
 
           {/* Navbar button */}
 
-                <div className=" ml-4 invisible lg:visible" >
-                  <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl md:px-8 md:py-3 hover:text-white hover:border-0">
+                <div className="ml-4 invisible lg:visible " >
+                  <button className="bg-[#FFF] border-[#068278] border text-[#068278] btn hover:bg-[#068278] rounded-3xl px-8 py-3 hover:text-white hover:border-transparent">
                    
                   Signup
                   </button>

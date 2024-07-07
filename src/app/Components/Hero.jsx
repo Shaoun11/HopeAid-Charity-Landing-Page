@@ -3,23 +3,25 @@ import Image from 'next/image'
 import hero_main_image from '../../../public/Hero_Image/hero_main.jpeg'
 const Hero = () => {
     return (
+        // HoperAid hero section start
         <div id='/' className='bg-[#FEF9F6] lg:min-h-[calc(100vh-78px)]'>
-            <div className='max-w-7xl md:flex lg:gap-6 lg:pt-16 pt-11 mx-auto '>
+            <div className='max-w-7xl md:flex lg:gap-14 lg:pt-16 pt-11 mx-auto '>
+                {/* HoperAid hero section text */}
                 <div className='lg:ml-0 ml-4 lg:mr-0 mr-4 '>
-                    <h1 className='lg:text-[64px] md:text-[30px] text-[28px] font-semibold text-[#171717]'>
+                    <h1 className='lg:text-[54px] md:text-[30px] leading-tight text-[28px] font-semibold text-[#171717]'>
                         Empowering Lives, One <span className='md:block '></span> Donation at a Time<span className='md:block '></span> Hope in Action
                     </h1>
-                    <p className='mt-4 text-[#525252] font-normal text-base'>
+                    <p className='mt-4 text-[#525252] font-normal text-[15px]'>
                         Act as a catalyst for good, and assist us in providing opportunities,<span className='md:block '></span> happiness, and hope to people and communities who are in need.
                     </p>
 
-                    <div className='mt-14'>
-                        <button className="bg-[#068278] hover:border-[#068278] hover:border text-[#FFF] hover:bg-[#FFF] btn rounded-3xl px-12 py-4 hover:text-[#068278] border-0">
+                    <div className='lg:mt-14 md:mt-7 mt-14'>
+                        <button className="bg-[#068278] hover:border-[#068278] hover:border text-[#FFF] hover:bg-[#FFF] btn rounded-3xl px-12 py-4 hover:text-[#068278] border-transparent">
 
-                        Donate Now
+                            Donate Now
                         </button>
                     </div>
-                    <div className='md:flex gap-8 mt-10'>
+                    <div className='md:flex gap-8 lg:pb-2 md:pb-5 pb-0 lg:mt-10 md:mt-4 mt-10'>
                         <div>
                             <h1 className='text-[32px] font-medium text-[#068278]'>56+</h1>
                             <p className='text-sm hidden lg:block text-[#525252] font-normal'>Nations where they are having <br /> an impact</p>
@@ -32,10 +34,10 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-
+                {/* HoperAid hero section svg and Image*/}
                 <div>
                     <div className='lg:mr-0 md:mr-8 mr-0'>
-                        <svg className=' backdrop-blur-none lg:relative absolute lg:ml-2 ml-[130px] lg:-mt-0 -mt-[130px] lg:w-[495px] lg:h-[319px] w-[225px] h-[195px] ' width="495" height="319" viewBox="0 0 495 319" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className='backdrop-blur-none lg:relative absolute lg:ml-2 ml-[130px] lg:-mt-0 -mt-[130px] lg:w-[495px] lg:h-[319px] w-[225px] h-[195px] ' width="495" height="319" viewBox="0 0 495 319" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_bd_0_1)">
                                 <circle cx="80" cy="143" r="28" fill="url(#paint0_linear_0_1)" />
                                 <circle cx="80" cy="143" r="27.5" stroke="url(#paint1_linear_0_1)" />
@@ -130,7 +132,8 @@ const Hero = () => {
                             <circle cx="234" cy="234" r="160.5" stroke="white" />
                             <circle cx="234" cy="234" r="233.5" stroke="white" />
                         </svg>
-                        <div className='lg:-mt-[350px] md:mt-[100px] md:ml-[90px] -mt-[50px] lg:ml-2 ml-[90px]'>
+                         {/* HoperAid hero section Image edit */}
+                        <div className='lg:-mt-[350px] md:mt-[100px] md:ml-[90px] -mt-[50px] lg:ml-2 ml-[90px] lg:pb-2 md:pb-5 pb-5 '>
                             <svg className='lg:w-[440px] lg:h-[440px] w-[277px] h-[277px]' width="440" height="440" viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="220" cy="220" r="216" stroke="white" stroke-width="8" />
                             </svg>
@@ -141,6 +144,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+        // HoperAid hero section end
     );
 };
 

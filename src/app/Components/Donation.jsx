@@ -5,16 +5,18 @@ import donation_image_2 from '../../../public/Donation_Image/558690cccd9233f7ec4
 import donation_image_3 from '../../../public/Donation_Image/e85c5935fe77bc4a5675868613904cbb.png'
 const Donation = () => {
     return (
+        // HoperAid Donation Section Code Start
         <div id='donation' className='max-w-7xl mt-10 mx-auto'>
+            {/* HoperAid Donation Section Text */}
             <div className='lg:ml-0 ml-4 lg:mr-0 mr-4 md:flex justify-between'>
-                <h1 className='lg:text-[48px] md:text-[30px] text-[24px] font-semibold text-[#171717]'>
+                <h1 className='lg:text-[40px] md:text-[30px] text-[24px] font-semibold text-[#171717]'>
                     Explore The Numerous <span className='md:block '></span> Programmes
                 </h1>
-                <p className='mt-3 text-[#525252] font-medium text-base'>
+                <p className='mt-3 text-[#525252] font-medium text-[15px]'>
                     Your assistance is essential to us completing our <span className='md:block '></span> mission. You can help and change things in a lot of <span className='md:block '></span> different ways.
                 </p>
             </div>
-
+            {/* HoperAid Donation Section Cards */}
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-14'>
                 {/* first card edit */}
                 <div className=" bg-[#FFF] shadow-md md:w-96 w-[330px] mx-auto rounded-3xl">
@@ -37,7 +39,7 @@ const Donation = () => {
                             </svg>
                             <span className='mt-[2px]'> 07 July - 09 Aug 2024</span>
                         </p>
-                        <p className='text-[20px] font-semibold text-[#171717] mt-2'>Contribute to Disaster Relief to help rebuild lives and restore hope.</p>
+                        <p className='text-[18px] font-semibold text-[#171717] mt-2'>Contribute to Disaster Relief to help rebuild lives and restore hope.</p>
                         <div className='flex gap-3 mt-5'>
                             <p className='text-[24px] font-medium text-[#171717]'>$384</p>
                             <p className='text-[16px] font-normal text-[#A3A3A3] mt-[6px]'>Raised of</p>
@@ -51,7 +53,7 @@ const Donation = () => {
 
                         </p>
                         <div className="card-actions mb-5">
-                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-0">
+                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-transparent">
                                 Donate
                             </button>
                         </div>
@@ -78,7 +80,7 @@ const Donation = () => {
                             </svg>
                             <span className='mt-[2px]'> 09 Aug - 11 Sep 2024</span>
                         </p>
-                        <p className='text-[20px] font-semibold text-[#171717] mt-2'>Join us in raising money to make a lasting difference for</p>
+                        <p className='text-[18px] font-semibold text-[#171717] mt-2'>Join us in raising money to make a lasting difference for</p>
                         <div className='flex gap-3 mt-5'>
                             <p className='text-[24px] font-medium text-[#171717]'>$2.105</p>
                             <p className='text-[16px] font-normal text-[#A3A3A3] mt-[6px]'>Raised of</p>
@@ -91,7 +93,7 @@ const Donation = () => {
                             </svg>
                         </p>
                         <div className="card-actions mb-5">
-                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-0">
+                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-transparent">
                                 Donate
                             </button>
                         </div>
@@ -118,7 +120,7 @@ const Donation = () => {
                             </svg>
                             <span className='mt-[2px]'> 25 Sep - 30 Nov 2024</span>
                         </p>
-                        <p className='text-[20px] font-semibold text-[#171717] mt-2'>Make a donation to our fundraising drive to help us change lives.</p>
+                        <p className='text-[18px] font-semibold text-[#171717] mt-2'>Make a donation to our fundraising drive to help us change lives.</p>
                         <div className='flex gap-3 mt-5'>
                             <p className='text-[24px] font-medium text-[#171717]'>$880</p>
                             <p className='text-[16px] font-normal text-[#A3A3A3] mt-[6px]'>Raised of</p>
@@ -131,19 +133,21 @@ const Donation = () => {
                             </svg>
                         </p>
                         <div className="card-actions mb-5">
-                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-0">
+                            <button className="bg-[#FFF] border-[#068278] border text-[#068278] hover:bg-[#068278] btn rounded-3xl w-full p-2 hover:text-white hover:border-transparent">
                                 Donate
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
+            {/* HoperAid Donation Section Button */}
             <div className='mt-5 text-center mb-[60px]'>
-                <button className="bg-[#068278] hover:border-[#068278] hover:border text-[#FFF] hover:bg-[#FFF] btn rounded-3xl px-12 py-4 hover:text-[#068278] border-0">
+                <button className="bg-[#068278] hover:border-[#068278] hover:border text-[#FFF] hover:bg-[#FFF] btn rounded-3xl px-12 py-4 hover:text-[#068278] border-transparent">
                     View all
                 </button>
             </div>
         </div>
+        // HoperAid Donation Section Code End
     );
 };
 

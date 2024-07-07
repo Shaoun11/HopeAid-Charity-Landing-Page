@@ -4,9 +4,11 @@ import testimonial_image from '../../../public/Testimonial_Images/e0e5e24a0fe6d7
 
 const Testimonial = () => {
     return (
+        // HoperAid Testimonial Section Code Start
         <div className='max-w-7xl mx-auto pt-[60px] pb-[60px]'>
+            {/* HoperAid Testimonial Section Text */}
             <div className='lg:ml-0 ml-4 lg:mr-0 mr-4'>
-                <h1 className='lg:text-[48px] md:text-[30px] text-[24px] font-semibold text-[#171717] '>
+                <h1 className='lg:text-[40px] md:text-[30px] text-[24px] font-semibold text-[#171717] '>
                     Motivational Narratives <br />
                     of Effect
                 </h1>
@@ -20,7 +22,7 @@ const Testimonial = () => {
                             <path d="M16 30.056V25.688C16 24.056 16.288 22.552 16.864 21.176C17.44 19.8 18.416 18.408 19.792 17L22.288 18.968C21.488 19.768 20.88 20.52 20.464 21.224C20.048 21.928 19.776 22.648 19.648 23.384H22.72V30.056H16ZM25.36 30.056V25.688C25.36 24.056 25.648 22.552 26.224 21.176C26.8 19.8 27.776 18.408 29.152 17L31.648 18.968C30.848 19.768 30.24 20.52 29.824 21.224C29.408 21.928 29.136 22.648 29.008 23.384H32.08V30.056H25.36Z" fill="white" />
                         </svg>
 
-                        <h1 className='md:text-[18px] text-sm mt-4 ml-4 font-normal text-[#171717]'>
+                        <h1 className='text-[16px] mt-4 ml-4 font-normal text-[#171717]'>
                             Our mission at HopeAid is to improve <span className='md:block '></span> the lives of people who are less <span className='md:block '></span> fortunate. The inspiring tales of impact <span className='md:block '></span> made possible by the kindness and <span className='md:block '></span> assistance of our supporters and <span className='md:block '></span> volunteers serve as the fuel for our <span className='md:block '></span> work.
                         </h1>
 
@@ -50,7 +52,7 @@ const Testimonial = () => {
                             <path d="M16 30.056V25.688C16 24.056 16.288 22.552 16.864 21.176C17.44 19.8 18.416 18.408 19.792 17L22.288 18.968C21.488 19.768 20.88 20.52 20.464 21.224C20.048 21.928 19.776 22.648 19.648 23.384H22.72V30.056H16ZM25.36 30.056V25.688C25.36 24.056 25.648 22.552 26.224 21.176C26.8 19.8 27.776 18.408 29.152 17L31.648 18.968C30.848 19.768 30.24 20.52 29.824 21.224C29.408 21.928 29.136 22.648 29.008 23.384H32.08V30.056H25.36Z" fill="white" />
                         </svg>
 
-                        <h1 className='text-[18px] mt-4 ml-4 font-normal text-[#171717]'>
+                        <h1 className='text-[16px] mt-4 ml-4 font-normal text-[#171717]'>
                             Our mission at HopeAid is to improve <span className='md:block '></span> the lives of people who are less <span className='md:block '></span> fortunate. The inspiring tales of impact <span className='md:block '></span> made possible by the kindness and <span className='md:block '></span> assistance of our supporters and <span className='md:block '></span> volunteers serve as the fuel for our <span className='md:block '></span> work.
                         </h1>
 
@@ -80,7 +82,7 @@ const Testimonial = () => {
                             <path d="M16 30.056V25.688C16 24.056 16.288 22.552 16.864 21.176C17.44 19.8 18.416 18.408 19.792 17L22.288 18.968C21.488 19.768 20.88 20.52 20.464 21.224C20.048 21.928 19.776 22.648 19.648 23.384H22.72V30.056H16ZM25.36 30.056V25.688C25.36 24.056 25.648 22.552 26.224 21.176C26.8 19.8 27.776 18.408 29.152 17L31.648 18.968C30.848 19.768 30.24 20.52 29.824 21.224C29.408 21.928 29.136 22.648 29.008 23.384H32.08V30.056H25.36Z" fill="white" />
                         </svg>
 
-                        <h1 className='text-[18px] mt-4 ml-4 font-normal text-[#171717]'>
+                        <h1 className='text-[16px] mt-4 ml-4 font-normal text-[#171717]'>
                             Our mission at HopeAid is to improve <span className='md:block '></span> the lives of people who are less <span className='md:block '></span> fortunate. The inspiring tales of impact <span className='md:block '></span> made possible by the kindness and <span className='md:block '></span> assistance of our supporters and <span className='md:block '></span> volunteers serve as the fuel for our <span className='md:block '></span> work.
                         </h1>
 
@@ -114,6 +116,7 @@ const Testimonial = () => {
                 </svg>
             </div>
         </div>
+        // HoperAid Testimonial Section Code End
     );
 };
 
